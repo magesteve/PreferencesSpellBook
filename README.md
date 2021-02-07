@@ -4,8 +4,6 @@ Swift Package to provide standard Preference window functionality.
 
 https://github.com/magesteve/PreferencesSpellBook.git
 
-Refer to code documentation for explanation for specific calls.
-
 ## Preferences Magic
 
 To setup a standard Preference window, with a toolbar to select between the different Tab Views, the PreferenceItem startic function needs to be invoked at App startup for each of the preference panel items.
