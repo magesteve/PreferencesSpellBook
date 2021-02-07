@@ -17,3 +17,28 @@ To display the window, the PreferenceItem startic function needs to be invoked. 
     public static func display(ident: String? = nil)
 
 If the ident is passed nil, when the Window is displayed for the first time, the first item is displayed. if the window was closed previously, the window is opened with the last panel displayed.  If the ident string matches an items ident string, that that panel is displayed.
+
+### Examples
+
+Given two standard View Controller panels in the Main Storyboard with the storyboard ids of "general" & "sound", the following commands are added to the applicationDidFinishLaunching() function.
+
+    if let vc = NSStoryboard.main?.instantiateController(withIdentifier: "general") as? NSViewController {
+        PreferencesItem.addItem(ident: "general", title: "General", imageName: NSImage.actionTemplateName, viewController: vc, width: 300, height: 200)
+    }
+
+    if let vc = NSStoryboard.main?.instantiateController(withIdentifier: "sound") as? NSViewController {
+        PreferencesItem.addItem(ident: "sound", title: "Sound", imageName: NSImage.computerName, viewController: vc, width: 400, height: 300)
+    }
+
+This adds two Preference item, each with specific ident, name, icon & view controller.
+
+The modify the Preference menu item in the Main storyboard to the IBAction preferenceAction.  Add this code.
+
+    @IBAction func preferenceAction(_ sender: Any) {
+        PreferencesItem.display()
+    }
+
+The above examples can be found in the open-source PreferencesSpellBook-Demo app.
+
+    https://github.com/magesteve/PreferencesSpellBook-Demo
+
