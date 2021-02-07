@@ -2,7 +2,7 @@
 
 Swift Package to provide standard Preference window functionality.
 
-https://github.com/magesteve/PreferencesSpellBook
+https://github.com/magesteve/PreferencesSpellBook.git
 
 Refer to code documentation for explanation for specific calls.
 
