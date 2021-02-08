@@ -1,8 +1,18 @@
 # PreferencesSpellBook
 
-Swift Package to provide standard Preference window functionality.
+Swift Package to provide standard Preference window functionality for a Macintosh App (UIKit).
 
-https://github.com/magesteve/PreferencesSpellBook.git
+## Installation
+
+### Requirements
+
+- MacOS 10.15
+- Swift 5
+- Xcode 11
+
+### Repository
+
+    https://github.com/magesteve/PreferencesSpellBook.git
 
 ## Preferences Magic
 
@@ -37,8 +47,12 @@ The modify the Preference menu item in the Main storyboard to the IBAction prefe
     @IBAction func preferenceAction(_ sender: Any) {
         PreferencesItem.display()
     }
+    
+#### Demo App
 
 The above examples can be found in the open-source PreferencesSpellBook-Demo app.
 
     https://github.com/magesteve/PreferencesSpellBook-Demo
 
+## License
+PreferencesSpellBook is available as open source under the terms of the [MIT](https://github.com/magesteve/PreferencesSpellBook/blob/main/LICENSE) License.
