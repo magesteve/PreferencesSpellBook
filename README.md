@@ -56,9 +56,7 @@ The modify the Preference menu item in the Main storyboard to the IBAction prefe
     
 #### Demo App
 
-The above examples can be found in the open-source PreferencesSpellBook-Demo app.
-
-    https://github.com/magesteve/PreferencesSpellBook-Demo
+The above examples can be found in the open-source [PreferencesSpellBook-Demo](https://github.com/magesteve/PreferencesSpellBook-Demo) app.
 
 ## License
 PreferencesSpellBook is available as open source under the terms of the [MIT](https://github.com/magesteve/PreferencesSpellBook/blob/main/LICENSE) License.
