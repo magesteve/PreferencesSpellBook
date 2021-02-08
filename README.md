@@ -6,7 +6,7 @@
 [![SPM](https://img.shields.io/badge/SPM-Compatible-blue)](https://swift.org/package-manager)
 [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Swift Package to provide standard Preference window functionality for a Macintosh App (UIKit).
+Swift Package to provide standard Preference window functionality for a Macintosh App (Cocoa).
 
 ## Installation
 
