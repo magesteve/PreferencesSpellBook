@@ -54,9 +54,9 @@ The modify the Preference menu item in the Main storyboard to the IBAction prefe
         PreferencesItem.display()
     }
     
-#### Demo App
+## Demo App
 
-The above examples can be found in the open-source [CocoaGrimoire](https://github.com/magesteve/CocoaGrimoire) app. Other SpellBooks by the author are also demonstrated there.
+Sample code using this SpellBook can be found in the open-source Cocoa App [CocoaGrimoire](https://github.com/magesteve/CocoaGrimoire). Other SpellBooks by the author are also demonstrated there.
 
 ## License
 PreferencesSpellBook is available as open source under the terms of the [MIT](https://github.com/magesteve/PreferencesSpellBook/blob/main/LICENSE) License.
