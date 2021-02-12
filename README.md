@@ -54,6 +54,14 @@ The modify the Preference menu item in the Main storyboard to the IBAction prefe
         PreferencesItem.display()
     }
     
+To display the Preferences window, the following code should be invoked. The first Preference panel will be shown the first time the window is displayed.  Specific preferences can be selected by passing the Identifier.
+
+    PreferencesItem.display()
+    
+    PreferencesItem.display(indent: "sound")
+    
+Alternatively, the AppController can adopt the PreferencesAppController protocol. Then the IBAction preferencesSpellAction will be available. It will display the Preferences window. The Preference menu can be attached to this action.
+
 ## Demo App
 
 Sample code using this SpellBook can be found in the open-source Cocoa App [CocoaGrimoire](https://github.com/magesteve/CocoaGrimoire). Other SpellBooks by the author are also demonstrated there.
