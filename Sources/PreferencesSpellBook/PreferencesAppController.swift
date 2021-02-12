@@ -10,7 +10,7 @@ import Foundation
 // MARK: - PreferencesAppController Protocol
 
 /// Optional Protocol for App Controller using Preferences
-public protocol PreferencesAppController {
+public protocol PreferencesAppController: class {
     
 }
 
